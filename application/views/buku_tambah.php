@@ -1,10 +1,14 @@
+<div style="margin-bottom: 20px;">
+	<h3>Tambah Buku</h3>
+</div>
+
 <?php echo form_open('buku/proses'); ?>
 	<table>
 		<tr>
 			<td>Judul</td>
 			<td>:</td>
 			<td>
-				<?php echo form_input('judul', '', 'required="required"'); ?>
+				<input type="text" name="judul" required autofocus>
 			</td>
 		</tr>
 		<tr>
@@ -25,7 +29,8 @@
 			<td></td>
 			<td></td>
 			<td>
-				<?php echo form_input(array('type' => 'submit', 'name' => 'add', 'value' => 'Tambah')); ?>
+				<button type="submit" name="add">Simpan</button>
+				<a href="<?=site_url('buku');?>"><button type="button">Kembali</button></a>
 			</td>
 		</tr>
 	</table>

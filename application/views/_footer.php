@@ -1,6 +1,6 @@
 		</div>
 		<div class="footer">
-			Copyright 2017 - YukCoding.id | yukcoding.blogspot.com
+			Copyright 2017 - yukcoding.id
 		</div>
 	</div>
 </body>

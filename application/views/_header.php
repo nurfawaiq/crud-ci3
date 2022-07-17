@@ -8,9 +8,9 @@
 		font-size: 14px;
 	}
 	.container { border: 1px solid #e16c6c; }
-	.wrapper { padding: 20px; }
+	.wrapper { padding: 20px; min-height: 550px; }
 	.menu {
-		background-color: #e16c6c;
+		background-color: #be2727;
 		font-size: 16px;
 		font-weight: bold;
 	}
@@ -39,10 +39,16 @@
 	}
 
 	table.data { border-collapse: collapse; }
-	table.data th { background-color: #f7ff9b; }
-	table.data th, table.data td { padding: 5px; }
+	table.data th { background-color: #ffcccc; padding: 10px; }
+	table.data td { padding: 5px; }
 
-	.btn { cursor: pointer; }
+	button {
+		border: 0;
+		padding: 5px 10px;
+		border-radius: 2px;
+		cursor: pointer;
+	}
+	h3 { margin: 0; }
 	</style>
 </head>
 <body>

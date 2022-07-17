@@ -15,7 +15,7 @@ class Buku extends CI_Controller {
 		// $data['header'] = 'Tampil Data Buku';
 		// $data['buku'] = $query->result();
 		$data = array(
-				'header' => 'Tampil Data Buku',
+				'header' => 'Tampil Buku - CRUD CI3 YukCoding',
 				'buku' => $query->result(),
 			);
 		$this->load->view('_header', $data);
@@ -26,7 +26,7 @@ class Buku extends CI_Controller {
 	public function add()
 	{
 		$data = array(
-				'header' => 'Tambah Data Buku'
+				'header' => 'Tambah Buku - CRUD CI3 YukCoding'
 			);
 		$this->load->view('_header', $data);
 		$this->load->view('buku_tambah');
@@ -37,7 +37,7 @@ class Buku extends CI_Controller {
 	{
 		$query = $this->buku->get($id);
 		$data = array(
-				'header' => 'Edit Data Buku',
+				'header' => 'Edit Buku - CRUD CI3 YukCoding',
 				'buku' => $query->row()
 			);
 		$this->load->view('_header', $data);
