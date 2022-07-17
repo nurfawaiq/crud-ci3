@@ -49,6 +49,10 @@
 		cursor: pointer;
 	}
 	h3 { margin: 0; }
+	input {
+		padding: 5px;
+		width: 200px;
+	}
 	</style>
 </head>
 <body>

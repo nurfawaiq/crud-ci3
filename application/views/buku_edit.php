@@ -2,13 +2,17 @@
 	<h3>Edit Buku</h3>
 </div>
 
-<?php echo form_open('buku/proses', '', array('id' => $buku->id_buku)); ?>
+<?php
+// echo form_open('buku/proses', '', array('id' => $buku->id_buku));
+?>
+<form action="<?=site_url('buku/proses')?>" method="post">
+	<input type="hidden" name="id" value="<?=$buku->id_buku?>">
 	<table>
 		<tr>
 			<td>Judul</td>
 			<td>:</td>
 			<td>
-				<?php echo form_input('judul', $buku->judul, 'required="required"'); ?>
+				<input type="text" name="judul" value="<?=$buku->judul?>" required>
 			</td>
 		</tr>
 		<tr>
@@ -34,4 +38,4 @@
 			</td>
 		</tr>
 	</table>
-<?php echo form_close(); ?>
+<form>
