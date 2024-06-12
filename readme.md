@@ -1,9 +1,9 @@
 # crud-ci3
-Source code CRUD (Create, Read, Update, Delete) simpel dengan framework CodeIgniter 3 dan database MariaDB.
+Source code tutorial CRUD (Create, Read, Update, Delete) dengan framework PHP CodeIgniter 3 dan database MariaDB.
 
 
-Tutorial CI3 Basic : https://youtube.com/playlist?list=PLTagRbmJ8ettNR3gn7ssUjvIAy6YTSyiI
+Tutorial CI3 (Basic) : https://youtube.com/playlist?list=PLTagRbmJ8ettNR3gn7ssUjvIAy6YTSyiI
 
-Tutorial studi kasus POS : https://youtube.com/playlist?list=PLTagRbmJ8etsYolfn4DTCg8I6rfDivklc
+Tutorial CI3 (Studi Kasus POS / Kasir) : https://youtube.com/playlist?list=PLTagRbmJ8etsYolfn4DTCg8I6rfDivklc
 
-Tutorial CI4 studi kasus e-gawe : https://youtube.com/playlist?list=PLTagRbmJ8etv3nFxxR0rjCiWazwGn5Yuo
+Tutorial CI4 (Studi Kasus e-Gawe) : https://youtube.com/playlist?list=PLTagRbmJ8etv3nFxxR0rjCiWazwGn5Yuo
